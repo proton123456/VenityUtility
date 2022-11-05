@@ -4,8 +4,20 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
+wait(5)
+local args = {
+    [1] = "venity.ml/VenityHub || Made by n1wu#9214",
+    [2] = "All"
+}
 
+game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 --//Supported Games
+
+
+
+
+--//obfuscated script (not yet)
+
 
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/Rayfield/main/source'))()
 
