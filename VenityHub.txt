@@ -30,13 +30,15 @@ local Window = Rayfield:CreateWindow({
 	KeySettings = {
 		Title = "VenityUtility - Fishing Simulator",
 		Subtitle = "Key System",
-		Note = "Key Link Below",
+		Note = "Key Link: www.venity.ml/getkey",
 		FileName = "venityKey",
 		SaveKey = true,
 		GrabKeyFromSite = true, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
 		Key = "https://pastebin.com/raw/cuU6RVfE",
 	}
 })
+
+setclipboard("www.venity.ml/getkey")
 wait(5)
 Rayfield:LoadConfiguration()
 local Tab = Window:CreateTab("Main") -- Title, Image
