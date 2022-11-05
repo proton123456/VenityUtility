@@ -1,8 +1,1 @@
---Current Key:--
-
---venityKey#873487238754124587--
-
-print("Venity Status: Working")
-
-
---loadstring(game:HttpGet('https://www.venity.ml/873487238754124587.txt'))()--
+venityKey#873487238754124587
