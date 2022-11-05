@@ -1,3 +1,8 @@
-<!doctype html> <html> <head> <meta charset=utf-8> <meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name=viewport> <title>Raw VenityKey</title> <link rel="shortcut icon" type="image/x-icon" href="https://www.herokucdn.com/favicon.ico"> <style>html, body {
+--Current Key:--
 
-venityKey#873487238754124587
+--venityKey#873487238754124587--
+
+print("Venity Status: Working")
+
+
+--loadstring(game:HttpGet('https://www.venity.ml/873487238754124587.txt'))()--
