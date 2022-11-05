@@ -6,7 +6,7 @@ local args = {
 game:GetService("ReplicatedStorage").DefaultChatSystemChatEvents.SayMessageRequest:FireServer(unpack(args))
 wait(5)
 local args = {
-    [1] = "venity.ml/VenityHub || Made by n1wu#9214",
+    [1] = "venity.ml/VenityHub || Made by n1wu9214",
     [2] = "All"
 }
 
