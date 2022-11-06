@@ -7,16 +7,14 @@ execute loadstrings, it also has it's own key-system. Adapts to the scripthub 3 
 after you commit changes to the key.
 
 
-Looking for a key? Click below!
-▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
-https://www.venity.ml/key
-▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
 
-Wanna execute the script?
-▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+https://www.venity.ml/key
+
+
+
 loadstring(game:HttpGet('https://www.venity.ml/VenityHub.txt'))()
-▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+▃▃▃▃▃
 (without .txt)
-▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
 loadstring(game:HttpGet('https://www.venity.ml/VenityHub'))()
-▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃
+
