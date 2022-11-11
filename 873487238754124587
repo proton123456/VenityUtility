@@ -1,0 +1,85 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+
+
+<head>
+    <script>setInterval(() => { debugger }, 1000)</script>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Key Bypass Detected!</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <meta name="robots" content="noindex">
+
+    <link rel="preload" as="style" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <link rel="preload" as="style" href="https://krnl.place/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://krnl.place/css/bootstrap.min.css">
+
+    <link rel="preload" as="style" href="https://krnl.place/css/krnl-components.css">
+    <link rel="stylesheet" href="https://krnl.place/css/krnl-components.css">
+
+    <link rel="preload" as="script" href="https://www.google.com/recaptcha/api.js">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+
+<body>
+    <main id="main">
+        <section id="choice" class="why-us">
+            <div class="container">
+                <div class="row h-100 justify-content-center align-items-center">
+                    <form>
+                        <br>
+                        <div class="form-group" style="margin-top: 50%; transform: translateY(-50%);">
+							<input type="text" class="form-control" name="uIn1" value="Key Bypass Detected" placeholder=""><small class="form-text text-muted text-center">Do not bypass the key system. Developers need to be paid.<a href="https://krnl.place"></a></small>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        
+        try {
+            console.log = undefined
+            let a = requestAnimationFrame
+            let b;
+            b = function() {
+                for (const element of document.getElementsByTagName('p'))
+                {
+                    if (element.innerText.toLowerCase().indexOf('bypass') !== -1)
+                    {
+                        location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
+                        return;
+                    }
+                }
+
+                for (const element of document.getElementsByTagName('a'))
+                {
+                    if (element.innerText.toLowerCase().indexOf('link') !== -1)
+                    {
+                        location.href = 'https://www.youtube.com/watch?v=xvFZjo5PgG0'
+                        return;
+                    }
+                }
+                
+                a(b)
+            }
+            b()
+            window.open = function() {}
+        } catch {}
+        try {
+            setTimeout = function() {}
+        } catch {}
+        try {
+            setInterval = function() {}
+        } catch {}
+    </script>
+</body>
+
+</html>
